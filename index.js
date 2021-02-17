@@ -6,7 +6,7 @@ const rightBtn = document.getElementById("right")
 let activeSlides = 0;
 
 
-// clciking on left btn
+// clciking on left btn for click event
 leftBtn.addEventListener("click", ()=> {
     activeSlides--
 
@@ -19,7 +19,7 @@ leftBtn.addEventListener("click", ()=> {
 })
 
 
-// clicking on right button
+// clicking on right button for click event
 rightBtn.addEventListener("click", ()=> {
     activeSlides++
 
