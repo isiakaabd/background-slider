@@ -1,7 +1,7 @@
 const body = document.body
-const slides = document.querySelectorAll(".slide")
-const leftBtn = document.getElementById("left")
-const rightBtn = document.getElementById("right")
+const slides = document.querySelectorAll(".slide");
+const leftBtn = document.getElementById("left");
+const rightBtn = document.getElementById("right");
 
 let activeSlides = 0;
 
@@ -16,6 +16,7 @@ leftBtn.addEventListener("click", ()=> {
     }
     bgImage()
     setSlideActive()
+    console.log(activeSlides)
 })
 
 

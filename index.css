@@ -15,7 +15,7 @@ body{
 }
 
 
-body::before{
+body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -26,14 +26,14 @@ body::before{
     z-index: -1;
 }
 
-.sliders-container{
+.sliders-container {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     width: 70vw;
     height: 70vh;
     position: relative;
     overflow: hidden;
 }
-.slide{
+.slide {
     opacity: 0;
     height: 100vh;
     width: 100vw;
@@ -45,13 +45,13 @@ body::before{
     transition: 0.4s ease;
     z-index: 1;
 }
-.slide.active{
+.slide.active {
     opacity: 1;
 }
 .arrow {
     position: fixed;
     background-color: transparent;
-    color: #fff;
+    color: red;
     padding: 20px;
     font-size: 30px;
     border: 2px solid orange;
